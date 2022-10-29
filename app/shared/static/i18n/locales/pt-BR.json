@@ -1,0 +1,87 @@
+{
+  "head": {
+    "title": "Inicio - Encurtador URL"
+  },
+
+  "header": {
+    "home": "Inicio",
+    "count-clicks": "Contador de cliques"
+  },
+
+  "page-home": {
+    "button-shorten": "Encurtar",
+    "input-placeholder": "Cole seu like aqui",
+    "p-information": "O Encurtador de URL permite diminuir um link longo tornando-o fácil de lembrar. Após encurtar a URL, é possível saber quantos cliques ela recebeu.",
+    "section-one": {
+      "h2": "Um Encurtador de URL simples e rápido!",
+      "p": "O Encurtador é uma ferramenta grátis para encurtar links de redes sociais e sites mais acessados da Internet. Use o nosso Encurtador de URL para diminuir uma url longa e gerar um link curto. Cole o link completo e clique no botão Encurtar URL. Na próxima tela, copie a URL encurtada e compartilhe. "
+    },
+    "section-two": {
+      "h2": "Encurte, compartilhe e monitore",
+      "p": "Suas URLs encurtadas podem ser usadas em publicações, blogs, fóruns, e-mails, mensagens instantâneas e outros locais. Acompanhe as estatísticas para seus negócios e projetos monitorando a quantidade de acessos da sua URL com o contador de cliques, não é necessário se registrar.",
+      "cards": {
+        "card-one": {
+          "h2": "Curto",
+          "p": "Encurte links de qualquer tamanho com o Encurtador."
+        },
+        "card-two": {
+          "h2": "Grátis",
+          "p": "Crie quantos links encurtados quiser e compartilhe."
+        },
+        "card-three": {
+          "h2": "Seguro",
+          "p": "Usamos protocolo https com criptografia de dados nas urls"
+        },
+        "card-four": {
+          "h2": "Estatísticas",
+          "p": "Verifique o total de cliques da sua url encurtada"
+        },
+        "card-five": {
+          "h2": "Confiável",
+          "p": "Excluímos links que tentam disseminar spam e malware"
+        },
+        "card-six": {
+          "h2": "Responsivo",
+          "p": "Compatível com desktop, tablets e dispositivos móveis"
+        }
+      }
+    }
+  },
+
+  "page-total-clicks": {
+    "info": {
+      "h2": "Contador de Cliques da URL",
+      "p": "Digite a URL curta abaixo para descobrir quantos cliques ela recebeu até agora."
+    },
+    "form": {
+      "input-placeholder": "Exemplo: encurtador.com/DeFgH",
+      "button": "Contar cliques"
+    },
+    "result-info": {
+      "p": "O número total de cliques que seu link recebeu até agora:"
+    }
+  },
+
+  "page-shortened": {
+    "form": {
+      "button": "Copiar URL",
+      "span": "URL copiada"
+    },
+    "information": {
+      "p-one": "URL encurtada com sucesso!",
+      "p-two": "Copie o link encurtado e compartilhe em mensagens, textos, posts, sites e outros lugares.",
+      "p-three-span": "URL longa: ",
+      "p-four": "Acompanhe o total de cliques em tempo real do seu URL encurtado."
+    }
+  },
+
+  "footer": {
+    "footer-nav": {
+      "home": "Inicio",
+      "count-clicks": "Contador de cliques"
+    },
+    "about": {
+      "p": "© 2022 encurtadorurl.com - Ferramenta para encurtar um link longo. Linkedin - "
+    }
+  }
+}

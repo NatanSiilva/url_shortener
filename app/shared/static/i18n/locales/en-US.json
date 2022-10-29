@@ -1,0 +1,82 @@
+{
+  "head": {
+    "title": "Home - URL shortener"
+  },
+  "header": {
+    "home": "Home",
+    "count-clicks": "Click counter"
+  },
+  "page-home": {
+    "button-shorten": "Shorten",
+    "input-placeholder": "Paste your link here",
+    "p-information": "URL Shortener lets you shorten a long link making it easy to remember. After shortening the URL, it is possible to know how many clicks it received.",
+    "section-one": {
+      "h2": "A simple and fast URL Shortener!",
+      "p": "Shortener is a free tool to shorten links from social networks and the most accessed sites on the Internet. Use our URL Shortener to shorten a long url and generate a short link. Paste the full link and click the Shorten URL button. On the next screen, copy the shortened URL and share."
+    },
+    "section-two": {
+      "h2": "Shorten, share and track",
+      "p": "Your shortened URLs can be used in publications, blogs, forums, emails, instant messages and other places. Track statistics for your business and projects by monitoring the amount of hits to your URL with the click counter, no registration required.",
+      "cards": {
+        "card-one": {
+          "h2": "Short",
+          "p": "Shorten links of any length with the Shortener."
+        },
+        "card-two": {
+          "h2": "Free",
+          "p": "Create as many shortened links as you like and share."
+        },
+        "card-three": {
+          "h2": "Safe",
+          "p": "We use https protocol with data encryption in urls"
+        },
+        "card-four": {
+          "h2": "Statistics",
+          "p": "Check your shortened url total clicks"
+        },
+        "card-five": {
+          "h2": "Reliable",
+          "p": "We exclude links that attempt to spread spam and malware"
+        },
+        "card-six": {
+          "h2": "Responsive",
+          "p": "Compatible with desktop, tablets and mobile devices"
+        }
+      }
+    }
+  },
+  "page-shortened": {
+    "form": {
+      "button": "Copy URL",
+      "span": "Url copied"
+    },
+    "information": {
+      "p-one": "URL shortened successfully!",
+      "p-two": "Copy the shortened link and share in messages, texts, posts, websites and other places.",
+      "p-three-span": "Long URL: ",
+      "p-four": "Track the real-time total clicks of your shortened URL."
+    }
+  },
+  "page-total-clicks": {
+    "info": {
+      "h2": "URL Click Counter",
+      "p": "Enter the short URL below to find out how many clicks it has received so far."
+    },
+    "form": {
+      "input-placeholder": "Example: shortener.com/DeFgH",
+      "button": "Count clicks"
+    },
+    "result-info": {
+      "p": "The total number of clicks your link has received so far:"
+    }
+  },
+  "footer": {
+    "footer-nav": {
+      "home": "Home",
+      "count-clicks": "Click counter"
+    },
+    "about": {
+      "p": "© 2022 shortenerurl.com - Tool to shorten a long link. Linkedin - "
+    }
+  }
+}
