@@ -13,33 +13,33 @@
             <div class="form-shortner">
                 <form action="javascript:void(0);">
                     <div class="input-group">
-                        <input type="text" placeholder="Cole seu like aqui" value="{{ data.short_url }}" id="input-short-url" readonly>
-                        <button id="btn-copy">Copia URL</button>
+                        <input type="text" value="{{ data.short_url }}" id="input-short-url" readonly >
+                        <button id="btn-copy" data-i18n="page-shortened.form.button">Copy URL</button>
                     </div>
 
                     <div class="url-copied">
-                        <span>
-                            Url copiada
+                        <span data-i18n="page-shortened.form.button">
+                            Url copied
                             <i class='bx bx-check' styles="font-size: 1rem"></i>
                         </span>
                     </div>
                 </form>
 
                 <div class="information">
-                    <p>URL encurtada com sucesso!</p>
+                    <p data-i18n="page-shortened.information.p-one">URL shortened successfully!</p>
 
-                    <p>
-                        Copie o link encurtado e compartilhe em mensagens, textos, publicações, sites e outros locais.
+                    <p data-i18n="page-shortened.information.p-two">
+                      Copy the shortened link and share in messages, texts, posts, websites and other places.
                     </p>
 
 
                     <p>
-                        URL Longa: <a href="{{ data.long_url }}" target="_black">{{ data.long_url }}</a>
+                        <span data-i18n="page-shortened.information.p-three-span">Long URL: </span>
+                        <a href="{{ data.long_url }}" target="_black">{{ data.long_url }}</a>
                     </p>
 
-                    <p>
-                        Acompanhe o <a href="{{ url_for('total_clicks') }}">total de cliques</a> em tempo real da sua URL encurtada. </br>
-                        Crie outra <a href="{{ url_for('home') }}">URL encurtada</a>.
+                    <p data-i18n="page-shortened.information.p-four">
+                        Track the real-time total clicks of your shortened URL.
                     </p>
                 </div>
             </div>

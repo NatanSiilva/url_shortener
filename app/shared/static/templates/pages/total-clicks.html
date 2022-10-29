@@ -12,8 +12,8 @@
         <div class="content">
             <div class="form-total-clicks">
                 <div class="infor">
-                    <h2>Contador de Cliques da URL</h2>
-                    <p>Digite a URL curta abaixo para descobrir quantos cliques ela recebeu até agora</p>
+                    <h2 data-i18n="page-total-clicks.info.h2">URL Click Counter</h2>
+                    <p data-i18n="page-total-clicks.info.p">Enter the short URL below to find out how many clicks it has received so far.</p>
                 </div>
 
                 <form 
@@ -22,14 +22,14 @@
                     method="GET"
                 >
                     <div class="input-group">
-                        <input type="text" placeholder="Exemplo: encurtador.com/DeFgH" value="" id="input-total-clicks" name="short_url">
-                        <button id="btn-total-clicks" type="submit">Contar cliques</button>
+                        <input type="text" placeholder="Example: shortener.com/DeFgH" id="input-total-clicks" name="short_url" data-i18n="[placeholder]page-total-clicks.form.input-placeholder">
+                        <button id="btn-total-clicks" type="submit" data-i18n="page-total-clicks.form.button">Count clicks</button>
                     </div>
                 </form>
 
                 <div class="result-total-clicks">
                     <div class="result-infor">
-                        <p>O número total de cliques que seu link recebeu até agora.</p>
+                        <p data-i18n="page-total-clicks.result-info.p">The total number of clicks your link has received so far:</p>
                     </div>
                     <div class="result">
                         <span>10</span>

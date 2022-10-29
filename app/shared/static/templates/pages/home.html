@@ -10,7 +10,6 @@
         </div>
 
         <div class="form-shortner">
-            
             <form 
                 action="javascript:void(0);" 
                 method="POST" 
@@ -18,83 +17,82 @@
                 data-action-shorten="{{ url_for('register_url') }}" 
             >
                 <div class="input-group">
-                    <input type="text" name="long_url" id="long-url" placeholder="Cole seu like aqui">
-                    <button type="submit">Encurtar</button>
+                    <input type="text" name="long_url" id="long-url" data-i18n="[placeholder]page-home.input-placeholder">
+                    <button type="submit" data-i18n="page-home.button-shorten">Shorten</button>
                 </div>
             </form>
 
             <div class="information">
-                <p>
-                    O Encurtador de URL permite diminuir um link longo tornando-o fácil de lembrar
-                    Após encurtar a URL, é possível saber <a href="{{ url_for('total_clicks') }}">quantos cliques ela recebeu</a>
+                <p data-i18n="page-home.p-information">
+                    URL Shortener lets you shorten a long link making it easy to remember. After shortening the URL, it is possible to know how many clicks it received
                 </p>
             </div>
         </div>
 
         <div class="section_one">
-            <h2>Um Encurtador de URL simples e rápido!</h2>
+            <h2 data-i18n="page-home.section-one.h2">A simple and fast URL Shortener!</h2>
 
-            <p>
-                O Encurtador é uma ferramenta grátis para encurtar links de redes sociais e sites mais acessados da Internet. Use o nosso Encurtador de URL para diminuir uma url longa e gerar um link curto. Cole o link completo e clique no botão Encurtar URL. Na próxima tela, copie a URL encurtada e compartilhe. 
+            <p data-i18n="page-home.section-one.p">
+               Shortener is a free tool to shorten links from social networks and the most accessed sites on the Internet. Use our URL Shortener to shorten a long url and generate a short link. Paste the full link and click the Shorten URL button. On the next screen, copy the shortened URL and share.
             </p>
         </div>
 
 
         <div class="section_two">
-            <h2>Encurte, compartilhe e monitore</h2>
+            <h2 data-i18n="page-home.section-two.h2">Shorten, share and track</h2>
 
-            <p>
-                Suas URLs encurtadas podem ser usadas em publicações, blogs, fóruns, e-mails, mensagens instantâneas e outros locais. Acompanhe as estatísticas para seus negócios e projetos monitorando a quantidade de acessos da sua URL com o contador de cliques, não é necessário se registrar.
+            <p data-i18n="page-home.section-two.p">
+                Your shortened URLs can be used in publications, blogs, forums, emails, instant messages and other places. Track statistics for your business and projects by monitoring the amount of hits to your URL with the click counter, no registration required.
             </p>
 
             <div class="cards">
                 <div class="card">
                     <i class='bx bxs-share-alt bx-rotate-90' ></i>
-                    <h3>Curto</h3>
-                    <p>
-                        Encurte links de qualquer tamanho com o Encurtador.
+                    <h3 data-i18n="page-home.section-two.cards.card-one.h2">Short</h3>
+                    <p data-i18n="page-home.section-two.cards.card-one.p">
+                       Shorten links of any length with the Shortener.
                     </p>
                 </div>
 
                 <div class="card">
                     <i class='bx bx-bulb'></i>
-                    <h3>Grátis</h3>
-                    <p>
-                        Crie quantos links encurtados quiser e compartilhe.
+                    <h3 data-i18n="page-home.section-two.cards.card-two.h2">Free</h3>
+                    <p data-i18n="page-home.section-two.cards.card-two.p">
+                       Create as many shortened links as you like and share.
                     </p>
                 </div>
 
                 <div class="card">
                     <i class='bx bxs-lock-alt' ></i>
-                    <h3>Seguro</h3>
-                    <p>
-                        Usamos protocolo https com criptografia de dados nas urls
+                    <h3 data-i18n="page-home.section-two.cards.card-three.h2">Safe</h3>
+                    <p data-i18n="page-home.section-two.cards.card-three.p">
+                       We use https protocol with data encryption in urls
                     </p>
                 </div>
 
                 <div class="card">
                     <i class='bx bx-line-chart'></i>
-                    <h3>Estatísticas</h3>
-                    <p>
-                        Verifique o total de cliques da sua url encurtada
+                    <h3 data-i18n="page-home.section-two.cards.card-four.h2">Statistics</h3>
+                    <p data-i18n="page-home.section-two.cards.card-four.p">
+                        Check your shortened url total clicks
                     </p>
                 </div>
 
                 <div class="card">
                     <i class='bx bxs-lock-alt' ></i>
 
-                    <h3>Confiável</h3>
-                    <p>
-                        Excluímos links que tentam disseminar spam e malware
+                    <h3 data-i18n="page-home.section-two.cards.card-five.h2">Reliable</h3>
+                    <p data-i18n="page-home.section-two.cards.card-five.p">
+                      We exclude links that attempt to spread spam and malware
                     </p>
                 </div>
 
                 <div class="card">
                     <i class='bx bx-devices'></i>
 
-                    <h3>Responsivo</h3>
-                    <p>
-                        Compatível com desktop, tablets e dispositivos móveis
+                    <h3 data-i18n="page-home.section-two.cards.card-six.h2">Responsive</h3>
+                    <p data-i18n="page-home.section-two.cards.card-six.p">
+                        Compatible with desktop, tablets and mobile devices
                     </p>
                 </div>
             </div>

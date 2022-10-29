@@ -2,15 +2,15 @@
     <div class="footer-box">
         <nav class="footer-nav">
             <ul>
-                <li><a href="{{ url_for('home') }}">Home</a></li>
-                <li><a href="{{ url_for('total_clicks') }}">Contador de cliques</a></li>
+                <li><a href="{{ url_for('home') }}" data-i18n="footer.footer-nav.home">Home</a></li>
+                <li><a href="{{ url_for('total_clicks') }}" data-i18n="footer.footer-nav.count-clicks">Click counter</a></li>
             </ul>
         </nav>
         <div class="about">
-            <p>
-                © 2022 Encurtador.com - Ferramenta para encurtar um link longo. Linkedin - 
-                <a href="https://www.linkedin.com/in/natanael-silva-33b374188/" target="_blank">Natanael Silva</a>
+            <p data-i18n="footer.about.p">
+                © 2022 Shortenerurl.com - Tool to shorten a long link. Linkedin - 
             </p>
+            <a href="https://www.linkedin.com/in/natanael-silva-33b374188/" target="_blank">Natanael Silva</a>
         </div>
     </div>
 </footer>

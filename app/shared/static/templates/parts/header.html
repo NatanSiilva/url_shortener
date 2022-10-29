@@ -1,13 +1,81 @@
-
 <header>
-    <nav>
-        <a href="{{ url_for('home') }}">
-            <img src="{{ url_for('static', path='images/logo-03.png') }}" alt="logo do header encurtador">
-        </a>
-        
-        <ul>
-            <li><a href="{{ url_for('home') }}">Home</a></li>
-            <li><a href="{{ url_for('total_clicks') }}">Contador de cliques</a></li>
-        </ul>
-    </nav>
+  <nav>
+    <a href="{{ url_for('home') }}">
+      <img
+        src="{{ url_for('static', path='images/logo-03.png') }}"
+        alt="logo do header encurtador"
+      />
+    </a>
+
+    <ul>
+      <li><a href="{{ url_for('home') }}" class="li-home" data-i18n="header.home">Home</a></li>
+      <li><a href="{{ url_for('total_clicks') }}" class="li-count-clicks" data-i18n="header.count-clicks">Contador de cliques</a></li>
+    </ul>
+
+    <div class="side-div">
+      <span class="change-language" id="open-pop-up-language">
+        <svg
+          alt="Ícone do globo terrestre"
+          style="stroke: #fff"
+          width="16"
+          height="16"
+          viewBox="0 0 16 16"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M8 2C11.3213 2 14 4.67867 14 8C14 11.3213 11.3213 14 8 14"
+            stroke="default"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          ></path>
+          <path
+            d="M8 14C4.67867 14 2 11.3213 2 8C2 4.67867 4.67867 2 8 2"
+            stroke="default"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          ></path>
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M6.77898 2.70668C4.85232 5.92335 4.85232 10.0773 6.77898 13.294C7.34298 14.236 8.65832 14.236 9.22232 13.294C11.149 10.0773 11.149 5.92335 9.22232 2.70668C8.65765 1.76468 7.34298 1.76468 6.77898 2.70668Z"
+            stroke="default"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          ></path>
+          <path
+            d="M2 8.00002H14"
+            stroke="default"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          ></path>
+        </svg>
+        <p id="current-language"></p>
+        <svg
+          class="language-arrow-down"
+          xmlns="http://www.w3.org/2000/svg"
+          width="10"
+          height="10"
+          viewbox="0 0 24 24"
+        style="stroke: #fff"
+        >
+          <path
+            d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"
+          ></path>
+        </svg>
+      </span>
+      <div class="pop-up-language" id="pop-up-language">
+        <div class="language-choice">
+          <div class="inner-choice">
+            <span class="change-language-button" data-locale="pt">PT</span>
+            <span class="change-language-button" data-locale="en">EN</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
 </header>
