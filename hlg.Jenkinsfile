@@ -20,12 +20,12 @@ pipeline {
 
     stages(){
         
-        // stage ("Docker compose down"){            
-        //     steps {
-        //         echo "============================== Docker compose down ================================"
-        //         sh ("cd ${WORKDIR} && docker-compose -f ${DOCKER_COMPOSE_FILE} down")
-        //     }
-        // }
+        stage ("Docker compose down"){            
+            steps {
+                echo "============================== Docker compose down ================================"
+                sh ("cd ${WORKDIR} && docker-compose -f ${DOCKER_COMPOSE_FILE} down")
+            }
+        }
 
         stage ("Docker compose build"){            
             steps {
