@@ -41,12 +41,12 @@ pipeline {
         //     }
         // } 
 
-        stage ("Run Migrations"){        
-            steps {
-                echo "============================= Running Migrations ==================================="
-                sh ("cd ${WORKDIR} && docker-compose exec ${CONTAINER_NAME} alembic upgrade head")
-            }
-        }
+        // stage ("Run Migrations"){        
+        //     steps {
+        //         echo "============================= Running Migrations ==================================="
+        //         sh ("cd ${WORKDIR} && docker-compose exec ${CONTAINER_NAME} bash alembic upgrade head")
+        //     }
+        // }
 
         stage ("Build Frontend 01"){            
             steps {
