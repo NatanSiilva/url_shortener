@@ -55,11 +55,11 @@ pipeline {
             }
         }
 
-        stage ("Build Frontend 02"){            
-            steps {
-                echo "=================================== npm run build =============================="
-                sh ("cd ${WORKDIR} && docker-compose exec ${CONTAINER_NAME} npm run build")
-            }
-        }
+        // stage ("Build Frontend 02"){            
+        //     steps {
+        //         echo "=================================== npm run build =============================="
+        //         sh ("cd ${WORKDIR} && docker-compose exec ${CONTAINER_NAME} npm run build")
+        //     }
+        // }
     }
 }
