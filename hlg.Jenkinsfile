@@ -20,26 +20,26 @@ pipeline {
 
     stages(){
         
-        stage ("Docker compose down"){            
-            steps {
-                echo "============================== Docker compose down ================================"
-                sh ("cd ${WORKDIR} && docker-compose -f ${DOCKER_COMPOSE_FILE} down")
-            }
-        }
+        // stage ("Docker compose down"){            
+        //     steps {
+        //         echo "============================== Docker compose down ================================"
+        //         sh ("cd ${WORKDIR} && docker-compose -f ${DOCKER_COMPOSE_FILE} down")
+        //     }
+        // }
 
         stage ("Docker compose build"){            
             steps {
                 echo "============================== Docker compose build ================================"
-                sh ("cd ${WORKDIR} && docker-compose -f ${DOCKER_COMPOSE_FILE} build")
+                sh ("cd ${WORKDIR} && docker-compose -f ${DOCKER_COMPOSE_FILE} up -d --build")
             }
         }         
 
-        stage ("Docker compose up"){            
-            steps {
-                echo "============================== Docker compose up ================================"
-                sh ("cd ${WORKDIR} && docker-compose -f ${DOCKER_COMPOSE_FILE} up -d")
-            }
-        } 
+        // stage ("Docker compose up"){            
+        //     steps {
+        //         echo "============================== Docker compose up ================================"
+        //         sh ("cd ${WORKDIR} && docker-compose -f ${DOCKER_COMPOSE_FILE} up -d")
+        //     }
+        // } 
 
         stage ("Run Migrations"){        
             steps {
