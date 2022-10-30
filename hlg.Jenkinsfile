@@ -48,12 +48,12 @@ pipeline {
         //     }
         // }
 
-        stage ("Build Frontend 01"){            
-            steps {
-                echo "=================================== npm install =============================="
-                sh ("cd ${WORKDIR} && docker-compose exec ${CONTAINER_NAME} npm install")
-            }
-        }
+        // stage ("Build Frontend 01"){            
+        //     steps {
+        //         echo "=================================== npm install =============================="
+        //         sh ("cd ${WORKDIR} && docker-compose exec ${CONTAINER_NAME} npm install")
+        //     }
+        // }
 
         // stage ("Build Frontend 02"){            
         //     steps {
