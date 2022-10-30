@@ -4,12 +4,14 @@
 // - Publish Over SSH:       https://www.jenkins.io/doc/pipeline/steps/publish-over-ssh/
 // - HTTP Request:           https://www.jenkins.io/doc/pipeline/steps/http_request/#http-request-plugin
 
+
+
 pipeline {
     agent any
 
     environment {
         JOB_EXEC_TIMEOUT = 600
-        WORKDIR = '/var/lib/jenkins/workspace/url_shortener'
+        WORKDIR = '/var/lib/jenkins/workspace/url-shortener'
 
         DOCKERFILE = 'Dockerfile'
         DOCKER_COMPOSE_FILE = 'docker-compose-hlg.yml'
