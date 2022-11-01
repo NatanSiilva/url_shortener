@@ -12,7 +12,7 @@ templates = Jinja2Templates(directory="app/shared/static/templates")
 
 
 @api.get("/", response_class=HTMLResponse)
-async def home(request: Request):
+async def templete_home(request: Request):
     """
     Home page
     """
@@ -20,7 +20,7 @@ async def home(request: Request):
 
 
 @api.get("/shortened/{id_url}", response_class=HTMLResponse)
-async def shortened_url(request: Request, id_url: str):
+async def templete_shortened_url(request: Request, id_url: str):
     """
     Redirect to the original url
     """
@@ -37,7 +37,7 @@ async def shortened_url(request: Request, id_url: str):
 
 
 @api.get("/total-clicks", response_class=HTMLResponse)
-async def total_clicks(request: Request):
+async def templete_total_clicks(request: Request):
     return templates.TemplateResponse("pages/total-clicks.html", {"request": request})
 
 

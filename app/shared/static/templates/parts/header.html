@@ -1,6 +1,6 @@
 <header>
   <nav>
-    <a href="{{ url_for('home') }}">
+    <a href="{{ url_for('templete_home') }}">
       <img
         src="{{ url_for('static', path='images/logo-03.png') }}"
         alt="logo do header encurtador"
@@ -8,8 +8,8 @@
     </a>
 
     <ul>
-      <li><a href="{{ url_for('home') }}" class="li-home" data-i18n="header.home">Home</a></li>
-      <li><a href="{{ url_for('total_clicks') }}" class="li-count-clicks" data-i18n="header.count-clicks">Contador de cliques</a></li>
+      <li><a href="{{ url_for('templete_home') }}" class="li-home" data-i18n="header.home">Home</a></li>
+      <li><a href="{{ url_for('total_clicks_result') }}" class="li-count-clicks" data-i18n="header.count-clicks">Contador de cliques</a></li>
     </ul>
 
     <div class="side-div">
