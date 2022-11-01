@@ -12,11 +12,14 @@ app = FastAPI(
 
 origins = [
     "http://localhost:8000",
+    "http://urlshortener.natandev.com.br"
+    "https://urlshortener.natandev.com.br"
+
 ]
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=[origin for origin in origins],
     allow_credentials=True,
     allow_methods=["GET", "POST"],
     allow_headers=["*"],
