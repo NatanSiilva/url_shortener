@@ -11,7 +11,7 @@ pipeline {
 
     environment {
         JOB_EXEC_TIMEOUT = 600
-        WORKDIR = '/var/lib/jenkins/workspace/url-shortned'
+        WORKDIR = '/var/lib/jenkins/workspace/url-shortener'
 
         DOCKERFILE = 'Dockerfile'
         DOCKER_COMPOSE_FILE = 'docker-compose-hlg.yml'
