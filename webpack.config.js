@@ -78,7 +78,9 @@ module.exports = {
       "window.jQuery": "jquery",
     }),
     new CopyPlugin({
-      patterns: [{ from: "app/shared/static/images/*", to: "../images" }],
+      patterns: [
+        { from: "./app/shared/static/images", to: "images" },
+      ],
     }),
   ],
 };
